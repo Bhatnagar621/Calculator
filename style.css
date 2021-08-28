@@ -1,0 +1,74 @@
+
+label{
+    display: block;
+    margin: 1rem;
+}
+
+input{
+    height: 1.5rem;
+    padding: 0 0.5rem;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+input:focus{
+    outline: none;
+    border-bottom: 2px solid #00acee;
+}
+.navbar h1{
+    display: inline;
+    opacity: 1;
+    color: black;
+}
+.navbar p{
+    display: inline;
+    color: black;
+    justify-content: right;
+    padding: 0 1rem;
+    font-size: 1.25em;
+}
+.calculate{
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: none;
+    background: #00acee;
+    color: white;
+    
+}
+.container{
+    display: flex;
+    background-image: url("./images/bg.jpg");
+    height: 100vh;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+a{
+    text-decoration: none;
+    color: black;  
+}
+#si,#ci{
+    opacity: 1;
+    background-color: white;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    margin: 50px 50px;
+    padding: 4% 5%;
+    display: flex;
+    border: 2px solid cornflowerblue;
+}
+.simple_interest,.compound_interest{
+    font-weight: bold;
+    font-size: large;
+    opacity: 1;
+    background-color: white;
+    max-width: 400px;
+    margin: auto;
+    padding: 4% 5%;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    height: 350px;
+    border: 2px solid cornflowerblue;
+
+}
