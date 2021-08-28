@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple interest</title>
     <link rel="stylesheet" href="./style.css">
+    
 </head>
 <body>
     <nav class="navbar">
@@ -17,15 +18,17 @@
         <div class="simple_interest">
             <p>Simple Interest calculator</p>
             <label for="Principle">
-                <input type="number" placeholder="Enter principle amount">
+                <input id="Principle" type="number" placeholder="Enter principle amount">
             </label>
             <label for="Rate">
-                <input type="number" placeholder="Enter rate">
+                <input id="Rate" type="number" placeholder="Enter rate">
             </label>
             <label for="Time">
-                <input type="number" placeholder="Enter time">
+                <input id="Time" type="number" placeholder="Enter time">
             </label>
-            <button class="calculate">Calculate</button>
+            <button class="calculate" onclick="calculateSI">Calculate
+                
+            </button>
             <div id="output"></div>
         </div>
         </div>
