@@ -18,20 +18,22 @@
     <div class="compound_interest">
         <p>Compound Interest calculator</p>
         <label for="Principle">
-            <input type="number" placeholder="Enter principle amount">
+            <input id="CIprinciple" type="number" placeholder="Enter principle amount">
         </label>
         <label for="Rate">
-            <input type="number" placeholder="Enter rate">
+            <input  id="CIrate" type="number" placeholder="Enter rate">
         </label>
         <label for="Time">
-            <input type="number" placeholder="Enter time">
+            <input id="CItime" type="number" placeholder="Enter time">
         </label>
         <label for="numberOfTimes">
-            <input type="number" placeholder="Enter number of times">
+            <input id="CInum" type="number" placeholder="Enter number of times">
         </label>
-        <button class="calculate">Calculate</button>
-        <div id="output"></div>
+        <button onclick="calculateCI()" class="CIcalculate">Calculate</button>
+        <div id="CIoutput"></div>
     </div>
     </div>
+    <script src="./index.js">
+        </script>
 </body>
 </html>
